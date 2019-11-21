@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <com.cyt.smarthome.view.CustomTitleBar
+        android:id="@+id/tv_personal_center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:leftImage="@drawable/go_back"
+        app:middleTextColor="@color/white"
+        app:middleTextSize="@dimen/dp_20"
+        app:middleTitle="个人中心"></com.cyt.smarthome.view.CustomTitleBar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+<TextView
+    android:id="@+id/tv_u_per"
+    android:layout_width="@dimen/dp_90"
+    android:layout_height="@dimen/dp_40"
+    android:layout_gravity="right"
+    android:gravity="center"
+    android:textColor="#fcef61"
+    android:textStyle="bold"
+    android:textSize="@dimen/dp_20"
+    android:text="【业主】"
+    />
+        <ImageView
+            android:id="@+id/iv_u_icon"
+            android:layout_width="@dimen/dp_80"
+            android:layout_height="@dimen/dp_80"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/dp_8"
+            android:layout_marginBottom="@dimen/dp_8"
+            android:src="@drawable/user_man"
+            android:elevation="@dimen/dp_5"
+            android:padding="@dimen/dp_10" />
+
+        <TextView
+            android:id="@+id/tv_u_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/dp_6"
+            android:text="user1"
+            android:textColor="@color/write"
+            android:textSize="@dimen/dp_16" />
+    </LinearLayout>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="@dimen/dp_5"
+        app:contentPadding="@dimen/dp_10">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp_3"
+            android:gravity="center_vertical|left"
+            android:text="@string/CarNumber"
+            android:textColor="@color/write"
+            android:textSize="@dimen/dp_16" />
+
+        <TextView
+            android:id="@+id/tv_CarNumber"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/dp_3"
+            android:gravity="center_vertical|right"
+            android:textColor="@color/write"
+            android:textSize="@dimen/dp_16" />
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_1"
+        android:layout_marginBottom="@dimen/dp_1"
+        app:cardElevation="@dimen/dp_5"
+        app:contentPadding="@dimen/dp_10">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp_3"
+            android:gravity="center_vertical|left"
+            android:text="@string/CellphoneNumber"
+            android:textColor="@color/write"
+            android:textSize="@dimen/dp_16" />
+
+        <TextView
+            android:id="@+id/tv_CellphoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/dp_3"
+            android:gravity="center_vertical|right"
+            android:textColor="@color/write"
+            android:textSize="@dimen/dp_16"
+
+            />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="@dimen/dp_5"
+        app:contentPadding="@dimen/dp_10">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp_3"
+            android:gravity="center_vertical|left"
+            android:text="@string/adress"
+            android:textColor="@color/write"
+            android:textSize="@dimen/dp_16"
+            />
+
+        <TextView
+            android:id="@+id/tv_adress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/dp_3"
+            android:gravity="center_vertical|right"
+            android:textColor="@color/write"
+            android:textSize="@dimen/dp_16" />
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

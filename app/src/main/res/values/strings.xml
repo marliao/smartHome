@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">smartHome</string>
+    <string name="home_drawer_open">open</string>
+    <string name="home_drawer_close">close</string>
+    <string name="MalfunctionRepair">故障报修</string>
+    <string name="Housekeeping">家政服务</string>
+    <string name="Suggestions">投诉建议</string>
+    <string name="PropertyAnnouncement">物业公告</string>
+    <string name="CommunityNews">社区新闻</string>
+    <string name="PeripheralService">查看周边</string>
+    <string name="CommunityTable">社区点餐</string>
+    <string name="PropertyPayment">物业缴费</string>
+    <string name="main_title">智能家庭</string>
+    <string name="set_title">设置</string>
+    <string name="feedback">建议反馈</string>
+    <string name="CheckForUpdates">检查更新</string>
+    <string name="SoftwareDescription">软件说明</string>
+    <string name="logout">注销账号</string>
+    <string name="SignOut">退出登录</string>
+    <string name="item1">个人中心</string>
+    <string name="item2">服务管理</string>
+    <string name="item3">物业管理</string>
+    <string name="item4">设置</string>
+    <string name="icon1">icon1</string>
+    <string name="icon2">icon12</string>
+    <string name="icon3">icon14</string>
+    <string name="icon4">icon15</string>
+    <string name="item5">退出</string>
+    <string name="icon5">exit</string>
+    <string name="CellphoneNumber">手机号码</string>
+    <string name="CarNumber">身份证号</string>
+    <string name="adress">住址</string>
+    <string name="resetpassword">修改密码</string>
+    <string name="unlock">unlock</string>
+    <string-array name="ids_floor">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="ids_unit">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="ids_room">
+        <item>101</item>
+        <item>102</item>
+    </string-array>
+</resources>

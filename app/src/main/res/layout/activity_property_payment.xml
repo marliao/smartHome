@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.cyt.smarthome.view.CustomTitleBar
+        android:id="@+id/tv_property_payment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:middleTextSize="@dimen/dp_20"
+        app:middleTextColor="@color/white"
+        app:middleTitle="物业缴费"
+        app:leftImage="@drawable/go_back"
+        >
+
+    </com.cyt.smarthome.view.CustomTitleBar>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_property_payment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

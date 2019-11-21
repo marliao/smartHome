@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ecebeb"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        app:cardCornerRadius="@dimen/dp_0"
+        app:cardElevation="2dp"
+        app:contentPadding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="业主服务"
+                android:textColor="@color/write"
+                android:textSize="@dimen/dp_16" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="@dimen/dp_90"
+            android:layout_height="@dimen/dp_90"
+            android:layout_marginTop="@dimen/dp_2"
+            app:cardElevation="2dp"
+            app:cardCornerRadius="@dimen/dp_0"
+            app:contentPadding="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_MalfunctionRepair"
+                    android:layout_width="@dimen/dp_85"
+                    android:layout_height="@dimen/dp_85"
+                    android:drawableTop="@drawable/icon7"
+                    android:gravity="center"
+                    android:text="@string/MalfunctionRepair"
+                    android:textColor="@color/write"
+                    android:textSize="@dimen/dp_16" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="@dimen/dp_90"
+            android:layout_height="@dimen/dp_90"
+            android:layout_marginLeft="@dimen/dp_1_5"
+            android:layout_marginTop="@dimen/dp_2"
+            app:cardCornerRadius="@dimen/dp_0"
+            app:cardElevation="2dp"
+            app:contentPadding="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_Housekeeping"
+                    android:layout_width="@dimen/dp_85"
+                    android:layout_height="@dimen/dp_85"
+                    android:drawableTop="@drawable/icon4"
+                    android:gravity="center"
+                    android:paddingTop="@dimen/dp_0_5"
+                    android:text="@string/Housekeeping"
+                    android:textColor="@color/write"
+                    android:textSize="@dimen/dp_16" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="@dimen/dp_90"
+            android:layout_height="@dimen/dp_90"
+            android:layout_marginLeft="@dimen/dp_1_5"
+            android:layout_marginTop="@dimen/dp_2"
+            app:cardCornerRadius="@dimen/dp_0"
+            app:cardElevation="2dp"
+            app:contentPadding="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_Suggestions"
+                    android:layout_width="@dimen/dp_85"
+                    android:layout_height="@dimen/dp_85"
+                    android:drawableTop="@drawable/icon8"
+                    android:gravity="center"
+                    android:paddingTop="@dimen/dp_0_5"
+                    android:text="@string/Suggestions"
+                    android:textColor="@color/write"
+                    android:textSize="@dimen/dp_16" />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="@dimen/dp_90"
+            android:layout_height="@dimen/dp_90"
+            android:layout_marginLeft="@dimen/dp_1_5"
+            app:cardCornerRadius="@dimen/dp_0"
+            android:layout_marginTop="@dimen/dp_2"
+            app:cardElevation="2dp"
+            app:contentPadding="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_PropertyPayment"
+                    android:layout_width="@dimen/dp_85"
+                    android:layout_height="@dimen/dp_85"
+                    android:drawableTop="@drawable/icon9"
+                    android:gravity="center"
+                    android:text="@string/PropertyPayment"
+                    android:textColor="@color/write"
+                    android:textSize="@dimen/dp_16" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        app:cardElevation="2dp"
+        app:cardCornerRadius="@dimen/dp_0"
+        app:contentPadding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="信息服务"
+                android:textColor="@color/write"
+                android:textSize="@dimen/dp_16" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="@dimen/dp_90"
+            android:layout_height="@dimen/dp_90"
+            android:layout_marginTop="@dimen/dp_2"
+            app:cardCornerRadius="@dimen/dp_0"
+            app:cardElevation="2dp"
+            app:contentPadding="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_PropertyAnnouncement"
+                    android:layout_width="@dimen/dp_85"
+                    android:layout_height="@dimen/dp_85"
+                    android:drawableTop="@drawable/icon5"
+                    android:gravity="center"
+                    android:text="@string/PropertyAnnouncement"
+                    android:textColor="@color/write"
+                    android:textSize="@dimen/dp_16" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="@dimen/dp_90"
+            android:layout_height="@dimen/dp_90"
+            android:layout_marginLeft="@dimen/dp_1_5"
+            android:layout_marginTop="@dimen/dp_2"
+            app:cardCornerRadius="@dimen/dp_0"
+            app:cardElevation="2dp"
+            app:contentPadding="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_CommunityNews"
+                    android:layout_width="@dimen/dp_85"
+                    android:layout_height="@dimen/dp_85"
+                    android:drawableTop="@drawable/icon6"
+                    android:gravity="center"
+                    android:text="@string/CommunityNews"
+                    android:textColor="@color/write"
+                    android:textSize="@dimen/dp_16" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        app:cardCornerRadius="@dimen/dp_0"
+        app:cardElevation="2dp"
+        app:contentPadding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="周边服务"
+                android:textColor="@color/write"
+                android:textSize="@dimen/dp_16" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="@dimen/dp_90"
+            android:layout_height="@dimen/dp_90"
+            android:layout_marginTop="@dimen/dp_2"
+            app:cardCornerRadius="@dimen/dp_0"
+            app:cardElevation="2dp"
+            app:contentPadding="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_PeripheralService"
+                    android:layout_width="@dimen/dp_85"
+                    android:layout_height="@dimen/dp_85"
+                    android:drawableTop="@drawable/icon11"
+                    android:gravity="center"
+                    android:text="@string/PeripheralService"
+                    android:textColor="@color/write"
+                    android:textSize="@dimen/dp_16" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="@dimen/dp_90"
+            android:layout_height="@dimen/dp_90"
+            android:layout_marginLeft="@dimen/dp_1_5"
+            android:layout_marginTop="@dimen/dp_2"
+            app:cardCornerRadius="@dimen/dp_0"
+            app:cardElevation="2dp"
+            app:contentPadding="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_CommunityTable"
+                    android:layout_width="@dimen/dp_85"
+                    android:layout_height="@dimen/dp_85"
+                    android:drawableTop="@drawable/icon10"
+                    android:gravity="center"
+                    android:text="@string/CommunityTable"
+                    android:textColor="@color/write"
+                    android:textSize="@dimen/dp_16" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".activities.SubmitApplicationActivity">
+
+    <com.cyt.smarthome.view.CustomTitleBar
+        android:id="@+id/ctb_submit_application"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:leftTextSize="@dimen/dp_20"
+        app:middleTitle="提交申请" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/dp_5">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="住户姓名："
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+
+            <EditText
+                android:id="@+id/et_household_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="16"
+                android:singleLine="true"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/dp_5">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="服务内容："
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+
+            <EditText
+                android:id="@+id/et_repair_content"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_30"
+                android:background="@drawable/fillet"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/dp_5">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="家庭地址："
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+
+            <EditText
+                android:id="@+id/et_repair_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="16"
+                android:singleLine="true"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/dp_10">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="申请时间："
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_repair_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2019-4-8-16:07"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="@dimen/dp_8"
+            >
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="@dimen/dp_100"
+            android:layout_height="@dimen/dp_30"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_gray_button"
+            android:text="取消"
+            android:textColor="#fff"
+            android:layout_marginRight="@dimen/dp_10"
+            android:textSize="16sp" />
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="@dimen/dp_100"
+            android:layout_height="@dimen/dp_30"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_blue_button"
+            android:text="提交"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    >
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/title_color_blue_41a3ff"
+    android:textSize="@dimen/dp_20"
+    android:padding="@dimen/dp_8"
+    android:textColor="@color/white"
+    android:text="提交建议"
+    />
+    <EditText
+        android:id="@+id/et_suggestion"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_140"
+        android:layout_margin="@dimen/dp_20"
+        android:background="@drawable/fillet"
+        android:textColor="@color/write"
+        android:gravity="left"
+        android:textSize="@dimen/dp_18"
+        android:hint="请填写您的建议..."
+        android:padding="@dimen/dp_5"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/dp_20"
+        >
+
+        <Button
+            android:id="@+id/btn_dialog_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_35"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/bg_gray_button"
+            android:text="取消"
+            android:textColor="#FFF"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:id="@+id/btn_dialog_add"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_35"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_blue_button"
+            android:text="提交"
+            android:textColor="#FFF"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.cyt.smarthome.view.CustomTitleBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:middleTextSize="@dimen/dp_20"
+        app:middleTextColor="@color/white"
+        app:middleTitle="删除订单"
+        ></com.cyt.smarthome.view.CustomTitleBar>
+    <TextView
+        android:id="@+id/tv_pay_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/dp_18"
+        android:textColor="@color/write"
+        android:layout_margin="@dimen/dp_10"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/btn_dialog_cancel"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dp_35"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/bg_gray_button"
+            android:text="取消"
+            android:textColor="#FFF"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:id="@+id/btn_dialog_pay"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dp_35"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_blue_button"
+            android:text="删除"
+            android:textColor="#FFF"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+</LinearLayout>
